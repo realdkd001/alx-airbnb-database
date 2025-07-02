@@ -6,7 +6,8 @@ On Booking.user_id = Users.user_id;
 
 SELECT * FROM Property
 LEFT JOIN Review
-ON Property.property_id = Review.property_id;
+ON Property.property_id = Review.property_id
+ORDER BY Property.property_id;
 
 SELECT * FROM Users
 FULL OUTER JOIN Booking
