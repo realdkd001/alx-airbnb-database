@@ -23,4 +23,4 @@ CREATE INDEX IF NOT EXISTS idx_message_receiver_id ON Message(receiver_id);
 
 EXPLAIN ANALYZE
 SELECT * FROM Booking
-WHERE user_id = 'some-user-id';
+WHERE user_id = '3744da64-cc24-4558-b2ad-985fff3e0ba1';

@@ -79,7 +79,7 @@ SELECT * FROM Property WHERE location = 'Accra, Ghana';
 ## 📌 Query: Filter messages by sender
 
 ```sql
-SELECT * FROM Message WHERE sender_id = 'user1234';
+SELECT * FROM Message WHERE sender_id = '3744da64-cc24-4558-b2ad-985fff3e0ba1';
 ```
 
 #### ⏱️ Before Indexing
