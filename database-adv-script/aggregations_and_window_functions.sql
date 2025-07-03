@@ -16,7 +16,7 @@ ON u.user_id = t.user_id;
 SELECT 
 p.*,
 t.total_books,
-ROW_NUMBER() OVER( ORDER BY t.total_books DESC) AS row_property_ranking
+ROW_NUMBER() OVER( ORDER BY t.total_books DESC) AS row_property_ranking,
 RANK() OVER( ORDER BY t.total_books DESC) AS property_ranking
 FROM Property p
 INNER JOIN (
