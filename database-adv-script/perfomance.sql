@@ -1,3 +1,4 @@
+EXPLAIN (ANALYZE, BUFFERS)
 -- Initial unoptimized version
 SELECT 
     b.*,
